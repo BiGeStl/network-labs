@@ -1,0 +1,27 @@
+Jan 14 23:00:49.033 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 14 23:00:49.033 HYPERVISOR: Started on IP = localhost, TCP port = 64967.
+Jan 14 23:00:49.520 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 14 23:00:49.520 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\GNS3\projects\project 2 (3)\project-files\dynamips 
+Jan 14 23:00:49.520 GENERAL: working_dir=C:\Users\hp\GNS3\projects\project 2 (3)\project-files\dynamips
+Jan 14 23:00:49.520 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\GNS3\projects\project 2 (3)\project-files\dynamips\af97a540-fece-424b-9a4d-71ef356ad78d 
+Jan 14 23:00:49.520 GENERAL: working_dir=C:\Users\hp\GNS3\projects\project 2 (3)\project-files\dynamips\af97a540-fece-424b-9a4d-71ef356ad78d
+Jan 14 23:00:49.520 HYPERVISOR: exec_cmd: vm create R2 2 c3745 
+Jan 14 23:00:49.543 VM: VM R2 created.
+Jan 14 23:00:49.543 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Jan 14 23:00:49.546 HYPERVISOR: exec_cmd: c3745 get_mac_addr R2 
+Jan 14 23:00:49.546 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Jan 14 23:00:49.546 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Jan 14 23:00:49.546 HYPERVISOR: exec_cmd: vm get_status R2 
+Jan 14 23:00:49.546 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x6026e7b8 
+Jan 14 23:00:49.551 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/hp/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Jan 14 23:00:49.551 HYPERVISOR: exec_cmd: c3745 set_mac_addr R2 c402.08f4.0000 
+Jan 14 23:00:49.551 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Jan 14 23:00:49.551 HYPERVISOR: exec_cmd: vm set_ram R2 256 
+Jan 14 23:00:49.831 HYPERVISOR: exec_cmd: nio create_udp udp-5423d43b-3e38-4fad-af93-13a354356fc5 10004 127.0.0.1 10005 
+Jan 14 23:00:50.080 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-5423d43b-3e38-4fad-af93-13a354356fc5 
+Jan 14 23:00:50.080 HYPERVISOR: exec_cmd: vm get_status R2 
+Jan 14 23:00:54.448 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Jan 14 23:00:54.458 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\hp\GNS3\projects\project 2 (3)\project-files\dynamips\c3745-adventerprisek9-mz.124-25.image-256.ghost 
+Jan 14 23:00:54.458 HYPERVISOR: exec_cmd: vm get_status R2 
+Jan 14 23:00:54.465 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Jan 14 23:00:54.465 HYPERVISOR: exec_cmd: vm start R2 
