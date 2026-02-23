@@ -1,0 +1,39 @@
+Dec 31 16:18:17.144 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 31 16:18:17.144 HYPERVISOR: Started on IP = localhost, TCP port = 58255.
+Dec 31 16:18:17.633 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 31 16:18:17.634 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\GNS3\projects\project2(exercise1)\project-files\dynamips 
+Dec 31 16:18:17.634 GENERAL: working_dir=C:\Users\hp\GNS3\projects\project2(exercise1)\project-files\dynamips
+Dec 31 16:18:17.634 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\GNS3\projects\project2(exercise1)\project-files\dynamips\9dd733f4-d35f-4924-b1e7-fe8a4de95886 
+Dec 31 16:18:17.634 GENERAL: working_dir=C:\Users\hp\GNS3\projects\project2(exercise1)\project-files\dynamips\9dd733f4-d35f-4924-b1e7-fe8a4de95886
+Dec 31 16:18:17.634 HYPERVISOR: exec_cmd: vm create R3 3 c3745 
+Dec 31 16:18:17.637 VM: VM R3 created.
+Dec 31 16:18:17.637 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5002 
+Dec 31 16:18:17.637 HYPERVISOR: exec_cmd: c3745 get_mac_addr R3 
+Dec 31 16:18:17.637 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/hp/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Dec 31 16:18:17.637 HYPERVISOR: exec_cmd: vm get_status R3 
+Dec 31 16:18:17.637 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x6026e7b8 
+Dec 31 16:18:17.641 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+Dec 31 16:18:17.641 HYPERVISOR: exec_cmd: vm set_ram R3 256 
+Dec 31 16:18:17.641 HYPERVISOR: exec_cmd: vm set_nvram R3 256 
+Dec 31 16:18:17.641 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Dec 31 16:18:17.693 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/hp/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Dec 31 16:18:20.147 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/hp/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Dec 31 16:18:29.408 HYPERVISOR: exec_cmd: nio create_udp udp-4913debb-3dfc-4e57-b872-64da54bfe99d 10010 127.0.0.1 10011 
+Dec 31 16:18:29.675 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-4913debb-3dfc-4e57-b872-64da54bfe99d 
+Dec 31 16:18:29.675 HYPERVISOR: exec_cmd: vm get_status R3 
+Dec 31 16:18:33.215 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/hp/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Dec 31 16:18:47.657 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/hp/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Dec 31 16:22:49.475 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Dec 31 16:22:49.475 HYPERVISOR: exec_cmd: vm set_ghost_file R3 C:\Users\hp\GNS3\projects\project2(exercise1)\project-files\dynamips\c3745-adventerprisek9-mz.124-25.image-256.ghost 
+Dec 31 16:22:49.475 HYPERVISOR: exec_cmd: vm get_status R3 
+Dec 31 16:22:49.502 HYPERVISOR: exec_cmd: vm set_config R3 configs\i3_startup-config.cfg 
+Dec 31 16:22:49.502 HYPERVISOR: exec_cmd: vm start R3 
+Dec 31 16:22:51.240 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Dec 31 16:22:51.240 HYPERVISOR: exec_cmd: vm set_ghost_file R3 C:\Users\hp\GNS3\projects\project2(exercise1)\project-files\dynamips\c3745-adventerprisek9-mz.124-25.image-256.ghost 
+Dec 31 16:22:51.246 HYPERVISOR: exec_cmd: vm get_status R3 
+Dec 31 16:23:49.911 HYPERVISOR: exec_cmd: vm extract_config R3 
+Dec 31 16:23:49.958 HYPERVISOR: exec_cmd: vm extract_config R3 
+Dec 31 16:47:07.810 HYPERVISOR: exec_cmd: vm get_status R3 
+Dec 31 16:47:07.810 HYPERVISOR: exec_cmd: vm stop R3 
+Dec 31 16:47:07.964 VM: VM R3 shutdown.
+Dec 31 16:47:07.975 HYPERVISOR: exec_cmd: vm extract_config R3 

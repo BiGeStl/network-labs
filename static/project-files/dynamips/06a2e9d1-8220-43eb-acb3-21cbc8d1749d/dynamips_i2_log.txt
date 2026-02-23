@@ -1,0 +1,47 @@
+Dec 31 16:18:13.405 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 31 16:18:13.405 HYPERVISOR: Started on IP = localhost, TCP port = 58244.
+Dec 31 16:18:13.900 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 31 16:18:13.900 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\GNS3\projects\project2(exercise1)\project-files\dynamips 
+Dec 31 16:18:13.900 GENERAL: working_dir=C:\Users\hp\GNS3\projects\project2(exercise1)\project-files\dynamips
+Dec 31 16:18:13.900 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\GNS3\projects\project2(exercise1)\project-files\dynamips\897e43ba-8030-4e6d-b228-74dc2ee8e296 
+Dec 31 16:18:13.911 GENERAL: working_dir=C:\Users\hp\GNS3\projects\project2(exercise1)\project-files\dynamips\897e43ba-8030-4e6d-b228-74dc2ee8e296
+Dec 31 16:18:13.911 HYPERVISOR: exec_cmd: vm create R2 2 c3745 
+Dec 31 16:18:13.915 VM: VM R2 created.
+Dec 31 16:18:13.915 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Dec 31 16:18:13.915 HYPERVISOR: exec_cmd: c3745 get_mac_addr R2 
+Dec 31 16:18:13.918 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/hp/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Dec 31 16:18:13.919 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 31 16:18:13.919 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x6026e7b8 
+Dec 31 16:18:13.919 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Dec 31 16:18:13.919 HYPERVISOR: exec_cmd: vm set_ram R2 256 
+Dec 31 16:18:13.921 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Dec 31 16:18:13.921 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Dec 31 16:18:13.981 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/hp/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Dec 31 16:18:15.386 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/hp/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Dec 31 16:18:19.178 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/hp/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Dec 31 16:18:24.084 HYPERVISOR: exec_cmd: nio create_udp udp-6a7abf19-141f-4b4f-baaa-ec7d90c74729 10004 127.0.0.1 10005 
+Dec 31 16:18:24.350 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-6a7abf19-141f-4b4f-baaa-ec7d90c74729 
+Dec 31 16:18:24.350 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 31 16:18:29.396 HYPERVISOR: exec_cmd: nio create_udp udp-52d4bd35-33c9-48b5-b554-7dfaae558555 10008 127.0.0.1 10009 
+Dec 31 16:18:29.396 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-52d4bd35-33c9-48b5-b554-7dfaae558555 
+Dec 31 16:18:29.396 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 31 16:18:49.131 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/hp/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Dec 31 16:20:29.676 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Dec 31 16:20:29.676 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\hp\GNS3\projects\project2(exercise1)\project-files\dynamips\c3745-adventerprisek9-mz.124-25.image-256.ghost 
+Dec 31 16:20:29.679 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 31 16:20:29.679 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Dec 31 16:20:29.679 HYPERVISOR: exec_cmd: vm start R2 
+Dec 31 16:20:32.442 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Dec 31 16:20:32.442 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\hp\GNS3\projects\project2(exercise1)\project-files\dynamips\c3745-adventerprisek9-mz.124-25.image-256.ghost 
+Dec 31 16:20:32.448 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 31 16:22:00.137 HYPERVISOR: exec_cmd: vm extract_config R2 
+Dec 31 16:22:00.180 HYPERVISOR: exec_cmd: vm extract_config R2 
+Dec 31 16:22:30.151 HYPERVISOR: exec_cmd: vm extract_config R2 
+Dec 31 16:22:30.176 HYPERVISOR: exec_cmd: vm extract_config R2 
+Dec 31 16:44:02.915 HYPERVISOR: exec_cmd: nio bind_filter udp-52d4bd35-33c9-48b5-b554-7dfaae558555 2 capture 
+Dec 31 16:44:02.919 HYPERVISOR: exec_cmd: nio setup_filter udp-52d4bd35-33c9-48b5-b554-7dfaae558555 2 en10mb C:\Users\hp\GNS3\projects\project2(exercise1)\project-files\captures\R2_FastEthernet01_to_R3_FastEthernet00.pcap 
+Dec 31 16:47:07.810 HYPERVISOR: exec_cmd: vm get_status R2 
+Dec 31 16:47:07.810 HYPERVISOR: exec_cmd: vm stop R2 
+Dec 31 16:47:07.977 VM: VM R2 shutdown.
+Dec 31 16:47:08.009 HYPERVISOR: exec_cmd: vm extract_config R2 
+Dec 31 16:47:08.031 HYPERVISOR: exec_cmd: nio unbind_filter udp-52d4bd35-33c9-48b5-b554-7dfaae558555 2 
