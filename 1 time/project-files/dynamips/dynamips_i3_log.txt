@@ -1,0 +1,20 @@
+Dec 30 17:16:13.269 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 30 17:16:13.269 HYPERVISOR: Started on IP = localhost, TCP port = 59228.
+Dec 30 17:16:13.507 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 30 17:16:13.507 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\GNS3\projects\1 time\project-files\dynamips 
+Dec 30 17:16:13.507 GENERAL: working_dir=C:\Users\hp\GNS3\projects\1 time\project-files\dynamips
+Dec 30 17:16:13.507 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\GNS3\projects\1 time\project-files\dynamips\daa7cee3-73f5-43c5-8abe-6002ffeee8d0 
+Dec 30 17:16:13.507 GENERAL: working_dir=C:\Users\hp\GNS3\projects\1 time\project-files\dynamips\daa7cee3-73f5-43c5-8abe-6002ffeee8d0
+Dec 30 17:16:13.507 HYPERVISOR: exec_cmd: vm create R1 1 c3745 
+Dec 30 17:16:13.512 VM: VM R1 created.
+Dec 30 17:16:13.512 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5002 
+Dec 30 17:16:13.512 HYPERVISOR: exec_cmd: c3745 get_mac_addr R1 
+Dec 30 17:16:13.516 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Dec 30 17:16:13.516 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Dec 30 17:16:13.516 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 30 17:16:13.516 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60aa5f14 
+Dec 30 17:16:13.516 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/hp/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Dec 30 17:16:13.516 HYPERVISOR: exec_cmd: c3745 set_mac_addr R1 c401.06e0.0000 
+Dec 30 17:16:13.516 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Dec 30 17:16:13.516 HYPERVISOR: exec_cmd: vm set_ram R1 256 
+Dec 30 17:16:13.516 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5002 
