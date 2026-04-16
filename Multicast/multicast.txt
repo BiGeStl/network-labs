@@ -1,0 +1,6 @@
+ICMP multicast Echo Request отправляется на destination MAC-адрес:
+01:00:5e:01:01:01
+
+Ethernet II:
+  Source: c4:01:1c:ec:00:00
+  Destination: IPv4mcast_01:01:01 (01:00:5e:01:01:01)
